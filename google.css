@@ -1,0 +1,93 @@
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid white;
+	justify-content: flex-end;
+	height: 50px;
+	align-items: center;
+	padding-top: -30px;
+	font-family: "arial"; 
+}
+
+.elt {
+	margin-right: 15px;
+}
+
+ .google{
+	display: flex;
+    margin-top: 8em;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+.google1{
+	    text-align: center;
+    	margin-top: 3em;
+}
+.search {
+	border-radius: 20px;
+	width: 500px;
+	height: 35px;
+	border: 1px solid black;
+}
+
+.button input{
+	padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.button{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.elt1 {
+	margin-right: 30px;
+
+}
+
+.bas{
+	display: flex;
+justify-content: space-between;
+border: 1px black;
+	background: #DCDCDC;
+align-items: flex-end;
+}
+
+.droite{
+	display: flex;
+	justify-content: flex-end;
+	border: 1px black;
+	background: grey;
+	align-items: flex-end;
+
+}
+.France{
+	padding-top: px;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 1px solid grey;
+	background: #DCDCDC;
+	align-items: flex-end;
+}
+
+.elt a {
+	margin-right: 15px;
+}
+.espace{
+	      position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+body,html{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+	    font-family: arial,sans-serif;
+}
